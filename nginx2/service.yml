@@ -3,10 +3,10 @@ kind: Service
 metadata:
   name: my-nginx2-svc
   labels:
-    app: nginx
+    app: nginx2
 spec:
   type: LoadBalancer
   ports:
   - port: 80
   selector:
-    app: nginx
+    app: nginx2
